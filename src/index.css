@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/page/__container/page__container.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./blocks/header/header.css);
+@import url(./blocks/logo/logo.css);
+
+@import url(./blocks/form/form.css);
+
+@import url(./blocks/header-area/header-area.css);
+@import url(./blocks/search-bar/search-bar.css);
+@import url(./blocks/search-bar/__input/search-bar__input.css);
+@import url(./blocks/search-bar/__button/search-bar__button.css);
+@import url(./blocks/header-area/__personal-account/header-area__personal-account.css);
+@import url(./blocks/header-area/__personal-account/_text/header-area__personal-account_text.css);
+
+@import url(./blocks/nav/nav.css);
+@import url(./blocks/menu/menu.css);
+@import url(./blocks/menu/__item/menu__item.css);
+@import url(./blocks/menu/__item/_opened/menu__item_opened.css);
+@import url(./blocks/menu/__item-block/menu__item-block.css);
+@import url(./blocks/menu/__icon/menu__icon.css);
+@import url(./blocks/menu/__icon/_opened/menu__icon_opened.css);
+@import url(./blocks/menu/__title/menu__title.css);
+@import url(./blocks/menu/__title/_opened/menu__title_opened.css);
+@import url(./blocks/menu/__arrow-down/menu__arrow-down.css);
+@import url(./blocks/menu/__arrow-down/_opened/menu__arrow-down_opened.css);
+
+@import url(./blocks/menu-list/menu-list.css);
+@import url(./blocks/menu-list/__item/menu-list__item.css);
+@import url(./blocks/menu-list/_opened/menu-list_opened.css);
+
+@import url(./blocks/content/content.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/log-out/log-out.css);

@@ -1,0 +1,6 @@
+.header {
+    grid-area: header;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}

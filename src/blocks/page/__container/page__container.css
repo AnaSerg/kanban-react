@@ -1,0 +1,12 @@
+.page__container {
+    margin: 0 auto;
+    max-width: calc(100% - 35px*2);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 19% 1fr;
+    grid-template-rows: 11% 1fr 8%;
+    grid-template-areas:
+        "header search"
+        "menu content"
+        "footer content";
+}

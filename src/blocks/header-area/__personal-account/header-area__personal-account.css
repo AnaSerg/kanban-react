@@ -1,0 +1,9 @@
+.header-area__personal-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #282828;
+    border-radius: 50%;
+}

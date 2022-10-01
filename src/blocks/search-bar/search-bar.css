@@ -1,0 +1,12 @@
+.search-bar {
+    display: flex;
+    width: 100%;
+    min-height: 48px;
+    box-sizing: border-box;
+    /*padding: 0 0 13px;*/
+    margin: 0;
+    color: #282826;
+    font-size: 12px;
+    font-weight: 500;
+    outline: none;
+}

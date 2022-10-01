@@ -1,0 +1,4 @@
+.menu__item-block {
+    display: flex;
+    align-items: center;
+}

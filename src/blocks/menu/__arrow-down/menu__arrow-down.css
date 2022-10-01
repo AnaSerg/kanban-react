@@ -1,0 +1,12 @@
+.menu__arrow-down {
+    margin-right: 0;
+    width: 6px;
+    height: 4px;
+    border: none;
+    background: url('../../../images/Arrow-down-button.svg') center no-repeat;
+    cursor: pointer;
+}
+
+.menu__item:hover .menu__arrow-down {
+    background: url('../../../images/Arrow-button-down-white.svg') center no-repeat;
+}

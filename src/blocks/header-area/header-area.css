@@ -1,0 +1,7 @@
+.header-area {
+    grid-area: search;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

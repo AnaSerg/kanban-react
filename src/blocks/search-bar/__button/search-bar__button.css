@@ -1,0 +1,8 @@
+.search-bar__button {
+    border: none;
+    border-radius: 15px 0 0 15px;
+    width: 40px;
+    height: 48px;
+    background: url('../../../images/Search-icon.svg') center no-repeat #fff;
+    cursor: pointer;
+}

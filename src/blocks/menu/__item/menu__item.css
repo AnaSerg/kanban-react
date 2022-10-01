@@ -1,0 +1,15 @@
+.menu__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 175px;
+    padding: 10px 17px 10px 11px;
+    margin-bottom: 22px;
+    transition: background-color .5s;
+    border-radius: 10px;
+}
+
+.menu__item:hover {
+    background-color: #E2521D;
+    cursor: pointer;
+}
