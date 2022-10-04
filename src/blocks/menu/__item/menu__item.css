@@ -7,9 +7,15 @@
     margin-bottom: 22px;
     transition: background-color .5s;
     border-radius: 10px;
+    text-decoration: none;
+    color: #282826;
+    font-size: 14px;
+    font-weight: 500;
+
 }
 
 .menu__item:hover {
     background-color: #E2521D;
+    color: white;
     cursor: pointer;
 }

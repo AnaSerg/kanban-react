@@ -6,7 +6,7 @@ const SideMenu = () => {
 
     return (
         <ul className="menu">
-            <SideMenuItem title="Dashboard">
+            <SideMenuItem title="Dashboard" url="/">
                 <svg className="menu__icon" width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="1.05664" y="0.5" width="6" height="6" rx="1"/>
                     <rect x="1.05664" y="9.5" width="6" height="6" rx="1"/>
@@ -15,7 +15,7 @@ const SideMenu = () => {
                 </svg>
             </SideMenuItem>
 
-            <SideMenuItem title="Kanban">
+            <SideMenuItem title="Kanban" url="/kanban">
                 <svg className="menu__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.5" y="0.5" width="15" height="15" rx="4.5"/>
                     <line x1="4.44434" y1="4.55264" x2="7.99989" y2="4.55264"/>
@@ -24,14 +24,14 @@ const SideMenu = () => {
                 </svg>
             </SideMenuItem>
 
-            <SideMenuItem title="Calendar">
+            <SideMenuItem title="Calendar" url="/calendar">
                 <svg className="menu__icon" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x=".5" y="1.891" width="15" height="13.609" rx="3.5"/>
                     <path d="M5.3 0v3.478M11.7 0v3.478M12 7.456H4.8M8 10.935H4.8"/>
                 </svg>
             </SideMenuItem>
 
-            <SideMenuItem title="Reports">
+            <SideMenuItem title="Reports" url="/reports">
                 <svg className="menu__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6.665 2.76692C5.3468 2.79648 4.06714 3.20906 2.98783 3.95246C1.90852 4.69587 1.07805 5.73672 0.601428 6.94339C0.124806 8.15006 0.0234427 9.46836 0.310156 10.7316C0.596869 11.9948 1.25878 13.1462 2.21219 14.0402C3.1656 14.9341 4.36768 15.5306 5.66643 15.754C6.96518 15.9774 8.30225 15.8178 9.50858 15.2953C10.7149 14.7729 11.7363 13.9111 12.4436 12.8188C13.1509 11.7266 13.5124 10.4531 13.4822 9.15921L6.81731 9.30871L6.665 2.76692Z"/>
                     <path d="M6.665 2.76692C5.3468 2.79648 4.06714 3.20906 2.98783 3.95246C1.90852 4.69587 1.07805 5.73672 0.601428 6.94339C0.124806 8.15006 0.0234427 9.46836 0.310156 10.7316C0.596869 11.9948 1.25878 13.1462 2.21219 14.0402C3.1656 14.9341 4.36768 15.5306 5.66643 15.754C6.96518 15.9774 8.30225 15.8178 9.50858 15.2953C10.7149 14.7729 11.7363 13.9111 12.4436 12.8188C13.1509 11.7266 13.5124 10.4531 13.4822 9.15921L6.81731 9.30871L6.665 2.76692Z"/>
@@ -40,7 +40,7 @@ const SideMenu = () => {
                 </svg>
             </SideMenuItem>
 
-            <SideMenuItem title="Settings">
+            <SideMenuItem title="Settings" url="/settings">
                 <svg className="menu__icon" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M.5 4.211v7.579"/>
                     <path transform="matrix(.88492 .46575 -.59598 .803 0 11.79)" d="M0-.5h9.04"/>
