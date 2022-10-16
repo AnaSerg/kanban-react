@@ -1,0 +1,70 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 450px;
+    height: 550px;
+    box-shadow: -2px -1px 30px -12px rgba(34, 60, 80, 0.2);
+}
+
+.register__welcome {
+    margin: 50px auto 30px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.register__signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.register__question {
+    margin: 0 5px 0 0;
+    font-size: 16px;
+}
+
+.register__login-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #282826;
+    font-weight: bold;
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.register__input {
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+.register__input:focus {
+    border-color: #282826;
+}
+
+.register__button {
+    margin-top: 40px;
+    background-color: #E2521D;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #E2521D;
+    padding: 15px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.card {
+    width: 320px;
+    padding: 15px 18px 10px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card__title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+
+}
+
+.card-settings {
+    background: url('../../images/Card-more-icon.svg') center no-repeat;
+    border: none;
+    height: 14px;
+    width: 3px;
+}
+
+.card__image {
+    height: 75px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.card__description {
+
+}
+
+.card-down {
+
+}
+
+.card__tag {
+
+}
+
+.card__tag-text {
+
+}
+
+.card__date {
+
+}
+
+.card__date-img {
+
+}
+
+.card__date-text {
+
+}
