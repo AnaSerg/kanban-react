@@ -4,4 +4,9 @@
     font-size: 12px;
     font-weight: 500;
     cursor: pointer;
+    transition: opacity .2s;
+}
+
+.log-out:hover {
+    opacity: .6;
 }

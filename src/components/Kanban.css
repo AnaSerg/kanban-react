@@ -1,15 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
 .kanban {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
     margin: 15px;
     padding: 20px 10px;
     min-width: 320px;
-    min-width: 120px;
+    min-height: 450px;
     display: flex;
     align-items: center;
     flex-direction: column;
     border: 1px solid red;
 }
 
-.kanban__title {
+.column__title {
     font-size: 1.5rem;
-    font-weight: 700px
+    font-weight: 700px;
+}
+
+.item {
+    width: 100%;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 5px 0;
+    cursor: grab;
 }
