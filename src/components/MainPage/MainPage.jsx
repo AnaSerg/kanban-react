@@ -5,6 +5,8 @@ import Navigation from '../Navigation';
 import Dashboard from '../Dashboard';
 import Kanban from '../Kanban';
 import Calendar from '../Calendar';
+import ToDo from '../ToDo';
+import Settings from '../Settings';
 import Footer from '../Footer';
 import { Route, Switch} from 'react-router-dom';
 
@@ -24,6 +26,12 @@ const MainPage = () => {
         </Route>
         <Route path="/calendar">
           <Calendar />
+        </Route>
+        <Route path="/to-do">
+          <ToDo />
+        </Route>
+        <Route path="/settings">
+          <Settings />
         </Route>
       </Switch>
       <Footer />

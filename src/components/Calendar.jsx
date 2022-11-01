@@ -4,7 +4,7 @@ const Calendar = () => {
 
     return (
         <div className="content calendar">
-            <h1>Calendar</h1>
+            <h1 className="content__title">We'll create the Calendar section soon</h1>
         </div>
     )
 }

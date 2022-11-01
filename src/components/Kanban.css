@@ -4,30 +4,34 @@
 
 .kanban {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .column {
-    margin: 15px;
+    margin-top: 30px;
     padding: 20px 10px;
-    min-width: 320px;
+    min-width: 360px;
     min-height: 450px;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .column__title {
-    font-size: 1.5rem;
-    font-weight: 700px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
 }
 
 .item {
     width: 100%;
-    border: 1px solid blue;
-    padding: 10px;
-    border-radius: 6px;
+    padding: 15px 20px;
+    border-radius: 15px;
     margin: 5px 0;
     cursor: grab;
+    background-color: #fff;
+}
+
+.selected {
+    opacity: 0.6;
 }
