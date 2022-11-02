@@ -1,9 +1,3 @@
-import React, { useState } from 'react';
-import { DragDropContext } from 'react-beautiful-dnd';
-import Column from './Column';
-import initialData from './initialData';
-import './Kanban.css';
-
 export default class Kanban extends React.Component {
     state = initialData;
   
